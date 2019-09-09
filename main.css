@@ -1,0 +1,29 @@
+body {
+    background-color: rgb(0, 255, 64);
+}
+
+
+#navLinks {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: right;
+    align-content: space-between;
+    float:right;
+    /* margin-right: 50px; */
+}
+
+#navToBio {
+    margin-right: 50px;
+    border: solid red 1px;
+}
+#navToTechnologies {
+    margin-right: 50px;
+    border: solid blue 1px;
+
+}
+#navToProjects {
+    margin-right: 50px;
+    border: solid yellow 1px;
+
+}
